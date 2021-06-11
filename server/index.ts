@@ -8,5 +8,5 @@ const server = new http.Server(app);
 const port = process.env.PORT || 3000;
 
 server.listen(port, () => {
-  console.log(`Socket.IO server running at http://localhost:${port}/`);
+  console.log(`Server running at http://localhost:${port}/`);
 });
